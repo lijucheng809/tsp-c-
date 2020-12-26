@@ -8,7 +8,7 @@ using namespace std;
 
 int main() {
 
-    string filename = "/Users/lijucheng/Desktop/数据结构——算法/GLS&&FLS/data/att48.txt";
+    string filename = "filename";
 
     TSPSolver solver(48,filename);
     GLS gls = solver.GLS_FLS_solver(0.125,100);
